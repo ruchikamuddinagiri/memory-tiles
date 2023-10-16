@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.211ddd6b.css",
+    "main.js": "/static/js/main.1795b55a.js",
+    "static/media/opening.mp3": "/static/media/opening.ff9e880a1993559fb813.mp3",
+    "static/media/victory.mp3": "/static/media/victory.6cc497d769a5aee7b94b.mp3",
+    "static/media/levelup.mp3": "/static/media/levelup.4c527006306938f7b298.mp3",
+    "static/media/pokemon-a-button.mp3": "/static/media/pokemon-a-button.8ce10c3537478b2f1cb2.mp3",
+    "static/media/pokemon-bg.png": "/static/media/pokemon-bg.9a5d7c260a137ab099b1.png",
+    "static/media/Pokemon GB.ttf": "/static/media/Pokemon GB.6211ee48ea626f34681e.ttf",
+    "static/media/flip.mp3": "/static/media/flip.affcda3a02c0211e6a7c.mp3",
+    "index.html": "/index.html",
+    "static/media/sparkle.webp": "/static/media/sparkle.62f36c0d7ab287402050.webp",
+    "main.211ddd6b.css.map": "/static/css/main.211ddd6b.css.map",
+    "main.1795b55a.js.map": "/static/js/main.1795b55a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.211ddd6b.css",
+    "static/js/main.1795b55a.js"
+  ]
+}

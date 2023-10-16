@@ -1,62 +1,52 @@
-import { useState, useEffect } from "react";
-import Cards from "./Cards";
+import { useEffect, useState } from "react";
+import "../styles/Card.css";
+import Tilt from "react-parallax-tilt";
 
-function shuffleArray(array) {
-  const shuffledArray = array.slice();
-  for (let i = shuffledArray.length - 1; i > 0; i--) {
-    const randomIndex = Math.floor(Math.random() * (i + 1));
-    [shuffledArray[i], shuffledArray[randomIndex]] = [
-      shuffledArray[randomIndex],
-      shuffledArray[i],
-    ];
-  }
-  return shuffledArray;
-}
-
-function ContainerCards() {
-  const [pokemonIds, setPokemonIds] = useState([
-    134, 135, 136, 196, 197, 470, 471, 700, 133,
-  ]);
-  const [score, setScore] = useState(0);
-  const [prevCard, setPrevCard] = useState(null);
-  const [highestScore, setHighestScore] = useState(0);
+export default function Card ({ card, onClick, cardsShowing }) {
+  const ANIMATION_TIME = 850;
+  const [interactable, setInteractable] = useState(false);
+  console.log(card);
 
   useEffect(() => {
-    setPokemonIds((prevIds) => shuffleArray(prevIds));
+    setTimeout(() => setInteractable(true), ANIMATION_TIME);
   }, []);
 
-  const handleCardClick = (id) => {
-    if (prevCard !== id) {
-      setPrevCard(id);
-      setScore((prevScore) => prevScore + 1);
-    } else {
-      if (score > highestScore) {
-        setHighestScore(score);
-      }
-      setScore(0);
-      setPrevCard(null);
-    }
-    setPokemonIds((prevIds) => shuffleArray(prevIds));
-  };
-
   return (
-    <div className="flex flex-col items-center mt-8">
-      <div className="flex justify-center mt-4 mb-4">
-        <h2 className="text-2xl font-bold">Score: {score}</h2>
+    <Tilt
+      tiltReverse
+      reset
+      glareEnable={card?.shiny || true}
+      glareMaxOpacity={0.4}
+      glareColor={card?.shiny ? "#f1b818" : "#fff"}
+      glarePosition="all"
+      className={`card-container ${cardsShowing ? "front" : "back"} ${
+        cardsShowing && interactable ? undefined : "pointer-events-none"
+      }`}
+    >
+      <div className="card-inner">
+        <div className="card-front">
+          <button className="card" data-shiny={card?.shiny} onClick={onClick}>
+            {card?.shiny && <div className="shiny-symbol" />}
+
+            <img
+              src={card?.image}
+              alt={card?.name}
+              className="card-image"
+              draggable="false"
+            />
+            <p className="card-name">
+              <span className="name">{card?.name}</span>
+            </p>
+          </button>
+        </div>
+        <div className="card-back">
+          <img
+            src={`/card-back.png`}
+            alt="pokemon card back"
+            className="back"
+          />
+        </div>
       </div>
-      {prevCard !== null && score === 0 && (
-        <div className="text-red-500 font-bold">Perdiste</div>
-      )}
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
-        {pokemonIds.map((id) => (
-          <Cards key={id} pokemonId={id} onClick={() => handleCardClick(id)} />
-        ))}
-      </div>
-      <div className="mt-4">
-        <h3 className="text-lg font-bold">Puntaje más alto: {highestScore}</h3>
-      </div>
-    </div>
+    </Tilt>
   );
 }
-
-export default ContainerCards;

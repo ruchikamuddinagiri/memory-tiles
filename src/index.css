@@ -1,3 +1,48 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@font-face {
+  font-family: Pokemon;
+  src: url("../src/assets/Pokemon\ GB.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: url("../src/assets/forest-th.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Press Start 2P";
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 1px solid skyblue;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.App,
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
