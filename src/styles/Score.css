@@ -1,0 +1,21 @@
+.stats {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  color: rgb(41, 39, 39);
+}
+
+.stats .best-score {
+  display: flex;
+  white-space: pre-wrap;
+}
+
+.stats .best-score span {
+  display: flex;
+}
+
+.stats .nes-icon.trophy {
+  transform: scale(1.25);
+}
