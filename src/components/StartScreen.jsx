@@ -40,7 +40,7 @@ export default function StartScreen({ onStart }) {
   return (
     <Modal>
       <div className="start-screen-modal-content modal-content">
-        <p className="ask-text">What would you like to do?</p>
+        <p className="ask-text">Which level would you like to play?</p>
 
         <form onSubmit={handleStartGame}>
           <div className="level-options">

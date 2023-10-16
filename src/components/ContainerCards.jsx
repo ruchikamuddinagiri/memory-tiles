@@ -41,7 +41,7 @@ export default function Card ({ card, onClick, cardsShowing }) {
         </div>
         <div className="card-back">
           <img
-            src={`/card-back.png`}
+            src={`/card-back.jpg`}
             alt="pokemon card back"
             className="back"
           />
