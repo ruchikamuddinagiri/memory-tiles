@@ -23,7 +23,7 @@ function RadioInput({ defaultChecked, value, labelText, onChange }) {
 }
 
 export default function StartScreen({ onStart }) {
-  const cardGoals = [5, 10, 18];
+  const cardGoals = [6, 12, 18];// No of cards that are shown per round(easy, medium, hard).
 
   const [cardGoal, setCardGoal] = useState(cardGoals[0]);
 
