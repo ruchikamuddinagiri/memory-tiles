@@ -1,5 +1,7 @@
 .start-screen-modal-content {
-  padding: 16px;
+  padding: 16px;  
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(241, 239, 239, 0.932);
 }
 
 .github-repo:hover,
@@ -9,9 +11,8 @@
 }
 
 .ask-text {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: 0.1em solid black; /* The typwriter cursor */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  overflow: hidden;
+  margin: 0 auto;
   letter-spacing: -0.05em;
   animation: typing 0.9s steps(60, end), blink-caret 0.75s step-end infinite;
   text-align: center;
@@ -58,16 +59,5 @@
   to {
     white-space: nowrap;
     width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: black;
   }
 }
