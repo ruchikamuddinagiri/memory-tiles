@@ -15,7 +15,7 @@ function GameOverModal({ score, onPlayAgain, onQuit, status, onContinue }) {
             src={
               status === "win"
                 ? "https://media2.giphy.com/media/xx0JzzsBXzcMK542tx/giphy.gif"
-                : "https://media.tenor.com/TRTMIXMvMlAAAAAC/ditto-sad.gif"
+                : "https://media.giphy.com/media/L95W4wv8nnb9K/giphy.gif"
             }
             className="status-gif"
             alt=""
