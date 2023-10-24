@@ -6,10 +6,12 @@ import usePokemons from "../usePokemons";
 import levelUpSound from "../assets/levelup.mp3";
 import StartScreen from "../components/StartScreen";
 import "nes.css/css/nes.min.css";
+import 'font-awesome/css/font-awesome.min.css';
 import Score from "../components/Score";
 import flipCardSound from "../assets/flip.mp3";
 import BGMToggle from "../components/BGMToggle";
 import playAudio from "../playAudio";
+import SettingsPopup from "../components/Settings";
 import Main from "../components/Main";
 import Help from "../components/Help";
 
@@ -126,6 +128,7 @@ function App() {
   return (
     <div className="App">
       <BGMToggle status={gameStatus} />
+      <SettingsPopup onQuit={handleQuit}/>
 
       {loading ? (
         <LoadingScreen />
