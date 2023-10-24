@@ -13,8 +13,6 @@ import playAudio from "../playAudio";
 import Main from "../components/Main";
 import Help from "../components/Help";
 
-
-
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const levelUpAudio = new Audio(levelUpSound);
 levelUpAudio.volume = 0.2;
