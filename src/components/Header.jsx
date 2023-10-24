@@ -10,7 +10,6 @@ export default function Header({ children, onQuit }) {
         <span className="poke">Memory</span>
 <img className="logo" src={logo} alt="memory" />
 <span className="memo">Tiles</span>
-
         </button>
       </h1>
       {children}
