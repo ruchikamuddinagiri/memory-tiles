@@ -46,9 +46,9 @@ Are you ready to catch 'em all, one memory at a time? Let's embark on this thril
 
 ## Technologies Used
 
--   "React"
--   "JavaScript"
--   "Vite"
+-   React
+-   JavaScript
+-   Vite
 -   CSS
 -   HTML
 ## Future Work
@@ -59,6 +59,7 @@ We have plans to implement the following features in the future:
 -   **Leaderboard**: Implement a leaderboard to display high scores of different players.
 -   **Chat**: Implement a Chat feature to communicate with other players
 -   **Collaboration**: Sending an invite to other players requesting to collaborate on the game.
+-   
 ## Contributing
 We welcome contributions from the Pokemon community to enhance and expand the game. If you have any ideas, feature requests, bug reports, or code improvements, please feel free to submit them through GitHub's issue tracker or create a pull request.
 -   Fork the repository to your GitHub account.
