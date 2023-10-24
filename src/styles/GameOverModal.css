@@ -36,3 +36,15 @@
 .status-gif {
   max-width: 180px;
 }
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .game-over-modal-content {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .final-stats {
+    font-size: 14px;
+  }
+}
