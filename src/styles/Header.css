@@ -25,7 +25,7 @@
 }
 
 .logo-button:active {
-  transform: scale(0.95); /* Corrected 'scale' property to 'transform' */
+  scale: 0.95;
   outline: 0;
 }
 
@@ -35,15 +35,15 @@ header .pokeball {
 
 header .poke {
   color: rgb(238, 10, 10);
-  font-size: 27px;
+  font-size: 40px;
 }
 
 header .memo {
   color: rgb(252, 252, 252);
-  font-size: 27px;
+  font-size: 40px;
 }
 
-header .logo {
+header .logo{
   width: 128px;
   height: 128px;
 }

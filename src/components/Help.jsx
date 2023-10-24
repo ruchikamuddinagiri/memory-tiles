@@ -12,11 +12,13 @@ const Help = ({isOpen, onClose}) => {
           <h2 className="modal-heading text-center">How to Play</h2>
           <p className="p-1">Click on a card select it. In the next move select a different Card.You continue to play the game if you select different card in every move or else game ends.
             Click play again to try again.Enjoy collecting pokemons!</p>
-          <button onClick={onClose} className="text-center p-1">Lets Go</button>          
+          <div className="button-div">
+          <button onClick={onClose} className="text-center p-1">Lets Go</button>
+          </div>
         </div>
       </Modal>
     );
   }
-    
+  
   export default Help;
   

@@ -1,11 +1,9 @@
-@media screen and (max-width: 768px) {
-
 .start-screen-modal-content {
   padding: 16px;  
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(241, 239, 239, 0.932);
 }
-}
+
 .github-repo:hover,
 .github-repo {
   color: inherit;

@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import settings from '../assets/settings.png';
-import Modal from './Modal';
 
 const SettingsPopup = ({onQuit}) => {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -66,11 +64,10 @@ const SettingsPopup = ({onQuit}) => {
     <div>
       <button onClick={togglePopup} style={buttonStyles}>
       {/* <i className="fa fa-cog" style={{fontSize: '50px', color: "white"}}></i> FontAwesome "cog" icon */}
-      <img src="/settings.png" width="60" height="60" alt="Settings" />
+      <img src="../../public/settings.png" width="60" height="60" alt="Settings" />
       </button>
 
       {isPopupOpen && (
-        <Modal>
         <div style={popupStyles}>
           <button
             onClick={closePopup}
@@ -91,7 +88,6 @@ const SettingsPopup = ({onQuit}) => {
             <button onClick={changeMode} style={{...buttonStylesNoBorder, marginRight: '10px'}}>Change Mode</button>
           </div>
         </div>
-        </Modal>
       )}
     </div>
   );

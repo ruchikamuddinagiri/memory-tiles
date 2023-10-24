@@ -23,7 +23,7 @@ function RadioInput({ defaultChecked, value, labelText, onChange }) {
 }
 
 export default function StartScreen({ onStart }) {
-  const cardGoals = [6, 12, 18];
+  const cardGoals = [6, 12, 18];// No of cards that are shown per round(easy, medium, hard).
 
   const [cardGoal, setCardGoal] = useState(cardGoals[0]);
 
@@ -63,8 +63,9 @@ export default function StartScreen({ onStart }) {
           </div>
 
           <div className="start-options">
-            <OptionButton type="submit">Start Game</OptionButton>
+            <OptionButton type="submit" >Start Game</OptionButton>            
           </div>
+          
         </form>
       </div>
     </Modal>
