@@ -7,8 +7,8 @@ export default function Header({ children, onQuit }) {
     <header className="header">
       <h1>
         <span className="poke">Memory</span>
-<img className="logo" src={logo} alt="memory" />
-<span className="memo">Tiles</span>
+        <img className="logo" src={logo} alt="memory" />
+        <span className="memo">Tiles</span>
       </h1>
       {children}
     </header>

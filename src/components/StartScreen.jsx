@@ -63,9 +63,9 @@ export default function StartScreen({ onStart }) {
           </div>
 
           <div className="start-options">
-            <OptionButton type="submit" >Start Game</OptionButton>            
+            <OptionButton type="submit" >Start Game</OptionButton>
           </div>
-          
+
         </form>
       </div>
     </Modal>
