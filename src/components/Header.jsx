@@ -6,7 +6,7 @@ export default function Header({ children, onQuit }) {
   return (
     <header className="header">
       <h1>
-        <button onClick={onQuit} className="logo-button">
+        <button className="logo-button">
         <span className="poke">Memory</span>
 <img className="logo" src={logo} alt="memory" />
 <span className="memo">Tiles</span>
