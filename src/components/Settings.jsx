@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import settings from '../assets/settings.png'
+import settings from '../assets/settings.png';
+import Modal from './Modal';
 
 const SettingsPopup = ({onQuit}) => {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -69,6 +70,7 @@ const SettingsPopup = ({onQuit}) => {
       </button>
 
       {isPopupOpen && (
+        <Modal>
         <div style={popupStyles}>
           <button
             onClick={closePopup}
@@ -89,6 +91,7 @@ const SettingsPopup = ({onQuit}) => {
             <button onClick={changeMode} style={{...buttonStylesNoBorder, marginRight: '10px'}}>Change Mode</button>
           </div>
         </div>
+        </Modal>
       )}
     </div>
   );
