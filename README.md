@@ -3,7 +3,22 @@
 
 ## Description
 
-Challenge your memory with the Pokemon Memory Game, a fun and interactive web-based game built using React. Flip over the cards, don't click on the same card twice and test your memory skills. The game features multiple levels, a scoring system, and a modal to show your progress.
+Welcome to the Pokémon Memory Tiles Card Game!
+
+If you're a Pokémon enthusiast and up for a memory-challenging adventure, this game was tailor-made for you. Dive into a world of nostalgia and embark on a journey that puts your memory skills to the ultimate test. Powered by React, this game will keep you engaged for hours.
+
+Key Features:
+
+Memory Challenge: Flip over the cards, but be cautious not to click on the same card twice. Test your memory skills and attention to detail.
+
+Multiple Levels: The game offers multiple levels of increasing difficulty. Can you conquer them all and become a Pokémon Memory Master?
+
+Scoring System: Keep track of your progress with our scoring system. Strive to beat your previous best score and challenge your friends.
+
+Modal Progress: A sleek and user-friendly modal interface keeps you informed about your game progress. See how close you are to becoming a Pokémon Memory Champion.
+
+Are you ready to catch 'em all, one memory at a time? Let's embark on this thrilling Pokémon-themed memory card adventure together!
+
 ## Features
 
 -   **Card Matching**: Flip over cards and don't click on the same card twice.
