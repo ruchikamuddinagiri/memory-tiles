@@ -65,8 +65,8 @@ We welcome contributions from the Pokemon community to enhance and expand the ga
 -   Create a new branch for your feature or bug fix.
 -   Could you make your changes and test them thoroughly?
 -   Submit a pull request to the main repository for review.
--   We would like to extend our sincere appreciation to GitHub user [@Jersin21](https://github.com/Jersin21) for generously providing the initial codebase that served as the fundamental building block for our project. With great respect for their contributions, we leveraged 
-    their code as a foundation and subsequently molded it into our unique project, adding our distinctive style and features.
+-   Thanks to GitHub user [@Jersin21](https://github.com/Jersin21) His initial codebase served as the fundamental building block for our project. We leveraged their code as a foundation and     
+     subsequently molded it into our unique project, adding our distinctive style and features.
 ##
 Enjoy playing the Pokemon Memory Cards Game, and may your memory and Pokemon knowledge serve you well on this exciting adventure!
 
