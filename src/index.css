@@ -9,19 +9,19 @@
   src: url("../src/assets/Pokemon\ GB.ttf");
 }
 
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   min-height: 100%;
 }
 
 body {
-  background: url("../src/assets/background.jpg") no-repeat center center fixed;
+  background: url("../src/assets/background1.gif") no-repeat center center fixed;
   background-size: cover;
   font-family: "Press Start 2P";
 }
@@ -46,3 +46,4 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
 }
+

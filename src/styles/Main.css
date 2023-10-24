@@ -16,5 +16,9 @@ main {
 
 .score-progress {
   text-align: center;
-  color: whitesmoke;
+  color: rgb(6, 5, 5);
+}
+
+html {
+  cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important;
 }

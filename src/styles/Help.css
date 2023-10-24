@@ -1,0 +1,31 @@
+.help-button{
+  background-image: url(/src/assets/help.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  width: 140px;
+  height: 80px;
+  position: fixed;
+
+  top: 10px;
+    right: -10px;
+    border: unset;
+    background-color: transparent;
+
+
+}
+
+
+.help-modal{
+/*  display: flex;*/
+padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(241, 239, 239, 0.932);
+    width: 650px;
+}
+.text-center{
+  text-align: center;
+}
+.p-1{
+  padding: 1rem;
+}

@@ -34,9 +34,16 @@ header .pokeball {
 }
 
 header .poke {
-  color: blue;
+  color: rgb(238, 10, 10);
+  font-size: 40px;
 }
 
 header .memo {
-  color: white;
+  color: rgb(252, 252, 252);
+  font-size: 40px;
+}
+
+header .logo{
+  width: 128px;
+  height: 128px;
 }
