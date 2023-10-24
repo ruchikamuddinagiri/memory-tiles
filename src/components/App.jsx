@@ -11,6 +11,9 @@ import flipCardSound from "../assets/flip.mp3";
 import BGMToggle from "../components/BGMToggle";
 import playAudio from "../playAudio";
 import Main from "../components/Main";
+import Help from "../components/Help";
+
+
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const levelUpAudio = new Audio(levelUpSound);
@@ -32,7 +35,16 @@ function App() {
     await sleep(CARD_SLEEP_TIME);
     setCardsShowing(true);
   };
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+  
   const INCREMENT_STEP = 2;
   const CARD_SLEEP_TIME = 800;
   const MIN_LOAD_TIME = 250;
@@ -154,6 +166,9 @@ function App() {
             score={currentScore}
             scoreGoal={scoreGoal}
           />
+          <button onClick={openModal} className="help-button"> </button>
+          <Help isOpen={isModalOpen} onClose={closeModal} />
+          
         </>
       )}
     </div>

@@ -4,7 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
-  color: rgb(247, 247, 250);
+  color: #261526;
 }
 
 .stats .best-score {
