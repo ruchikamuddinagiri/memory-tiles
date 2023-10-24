@@ -1,5 +1,5 @@
 .help-button {
-  background-image: url(../../public/help.png);
+  background-image: url(/help.png);
   background-repeat: no-repeat; /* Changed to no-repeat */
   background-position: center center; /* Centered both horizontally and vertically */
   background-size: cover;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import settings from '../assets/settings.png'
 
 const SettingsPopup = ({onQuit}) => {
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -64,7 +65,7 @@ const SettingsPopup = ({onQuit}) => {
     <div>
       <button onClick={togglePopup} style={buttonStyles}>
       {/* <i className="fa fa-cog" style={{fontSize: '50px', color: "white"}}></i> FontAwesome "cog" icon */}
-      <img src="../../public/settings.png" width="60" height="60" alt="Settings" />
+      <img src="/settings.png" width="60" height="60" alt="Settings" />
       </button>
 
       {isPopupOpen && (
