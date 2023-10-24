@@ -66,7 +66,7 @@ We welcome contributions from the Pokemon community to enhance and expand the ga
 -   Could you make your changes and test them thoroughly?
 -   Submit a pull request to the main repository for review.
 -   Thanks to GitHub user [@Jersin21](https://github.com/Jersin21) His initial codebase served as the fundamental building block for our project. We leveraged their code as a foundation and     
-     subsequently molded it into our unique project, adding our distinctive style and features.
+     subsequently molded it into our unique project, adding our distinctive style and features.   
 ##
 Enjoy playing the Pokemon Memory Cards Game, and may your memory and Pokemon knowledge serve you well on this exciting adventure!
 
