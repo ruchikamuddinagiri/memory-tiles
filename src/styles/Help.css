@@ -1,25 +1,25 @@
 .help-button {
   background-image: url(/help.png);
-  background-repeat: no-repeat; /* Changed to no-repeat */
-  background-position: center center; /* Centered both horizontally and vertically */
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  width: 60px;
-  height: 60px;
+  width: 35px;
+  height: 35px;
   position: fixed;
   bottom: 5px;
-    right: 5px;
-    border: unset;
-    background-color: transparent;
+  right: 5px;
+  border: unset;
+  background-color: transparent;
 }
 
 .help-modal {
-  display: flex; /* Uncommented to enable flex display */
-  padding: 16px;
+  display: flex;
   flex-direction: column;
- 
+  padding: 16px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(241, 239, 239, 0.932);
-  width: 650px;
+  width: 100%;
+  /* Adjusted to be full width */
 }
 
 .text-center {
@@ -28,10 +28,41 @@
 
 .p-1 {
   padding: 1rem;
-  
-
 }
-.button-div{
- width: 100%; 
- text-align: center;
+
+.button-div {
+  width: 100%;
+  text-align: center;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .help-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .help-modal {
+    width: 90%;
+  }
+
+  .p-1 {
+    padding: 0.5rem;
+  }
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 1200px) {
+  .help-button {
+    width: 60px;
+    height: 60px;
+  }
+
+  .help-modal {
+    width: 700px;
+  }
+
+  .p-1 {
+    padding: 1.5rem;
+  }
 }

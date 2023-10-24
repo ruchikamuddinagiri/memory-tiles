@@ -1,21 +1,35 @@
 .stats {
-  text-transform: uppercase;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 25px;
   color: #261526;
 }
 
 .stats .best-score {
   display: flex;
-  white-space: pre-wrap;
+  align-items: center;
 }
 
 .stats .best-score span {
-  display: flex;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .stats .nes-icon.trophy {
   transform: scale(1.25);
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stats .best-score {
+    margin-top: 10px;
+  }
 }
