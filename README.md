@@ -58,7 +58,7 @@ We have plans to implement the following features in the future:
 -   **Timer**: Add a timer to challenge players to complete the game within a certain time limit.
 -   **Leaderboard**: Implement a leaderboard to display high scores of different players.
 -   **Chat**: Implement a Chat feature to communicate with other players
--   **Collaboration**: Sending an invite to other players requesting to collaborate on the game.
+-   **Collaboration**: Sending an invite to other players requesting to collaborate on the game
   
 ## Contributing
 We welcome contributions from the Pokemon community to enhance and expand the game. If you have any ideas, feature requests, bug reports, or code improvements, please feel free to submit them through GitHub's issue tracker or create a pull request.
