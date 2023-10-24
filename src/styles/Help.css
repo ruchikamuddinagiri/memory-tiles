@@ -1,31 +1,29 @@
-.help-button{
+.help-button {
   background-image: url(/src/assets/help.png);
-  background-repeat: repeat;
-  background-position: center;
+  background-repeat: no-repeat; /* Changed to no-repeat */
+  background-position: center center; /* Centered both horizontally and vertically */
   background-size: cover;
   width: 140px;
   height: 80px;
   position: fixed;
-
   top: 10px;
     right: -10px;
     border: unset;
     background-color: transparent;
-
-
 }
 
-
-.help-modal{
-/*  display: flex;*/
-padding: 16px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(241, 239, 239, 0.932);
-    width: 650px;
+.help-modal {
+  display: flex; /* Uncommented to enable flex display */
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(241, 239, 239, 0.932);
+  width: 650px;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.p-1{
+
+.p-1 {
   padding: 1rem;
 }
