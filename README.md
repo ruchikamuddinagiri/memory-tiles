@@ -1,5 +1,5 @@
 # Memory Tiles
--   Live: [Play Our Game Here]()
+-   Live: [Play Our Game Here](https://pokemon-memory-tiles.netlify.app)
 
 ## Description
 
@@ -16,7 +16,7 @@ Are you ready to catch 'em all, one memory at a time? Let's embark on this thril
 -   **Responsive Design**: Play the game on various devices with a responsive layout.
 ## Gameplay
 
-1.  Access the Game HERE(need to add link).
+1.  Access the Game [HERE](https://pokemon-memory-tiles.netlify.app).
 2.  Click on the cards to flip them and reveal the Pokemon.
 3.  Don't click on the same card twice to increase your score.
 4.  Complete all levels to win the game.
@@ -69,7 +69,9 @@ We welcome contributions from the Pokemon community to enhance and expand the ga
 -   Thanks to GitHub user [@Jersin21](https://github.com/Jersin21) His initial codebase served as the fundamental building block for our project. We leveraged their
   code as a foundation and subsequently molded it into our unique project, adding our distinctive style and features.
 ## Thoughts  
-Collaborating with a team of highly intellectual and driven individuals greatly enriched our project development journey. Our team members' remarkable creativity was commendable, and we consistently generated innovative ideas for project implementation. Our team exhibited efficient communication, swiftly engaged in discussions, and adeptly delegated tasks, ensuring effective collaboration and coordination.
+Working with a fantastic team of talented and motivated individuals was a big plus for our project. Our team was incredibly creative, always coming up with fresh ideas to make our project better. We also had great communication, discussing ideas and tasks efficiently, which made our teamwork smooth and effective.
+
+As for the game we were working on, we had big plans to make it more exciting. We wanted to add a timer to make it more challenging, allow players to see the Pokémon they caught after each level, and even introduce special bonus rounds where they could catch rare Pokémon. The goal was to create a more realistic and immersive Pokémon hunting experience, but due to time constraints, we couldn't implement these features. However, we still consider them as exciting possibilities for the future.
 ##
 Enjoy playing the Pokemon Memory Cards Game, and may your memory and Pokemon knowledge serve you well on this exciting adventure!
 
