@@ -16,7 +16,7 @@ Are you ready to catch 'em all, one memory at a time? Let's embark on this thril
 -   **Responsive Design**: Play the game on various devices with a responsive layout.
 ## Gameplay
 
-1.  Access the Game HERE(need to add link).
+1.  Access the Game [HERE](https://pokemon-memory-tiles.netlify.app).
 2.  Click on the cards to flip them and reveal the Pokemon.
 3.  Don't click on the same card twice to increase your score.
 4.  Complete all levels to win the game.
