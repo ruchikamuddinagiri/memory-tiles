@@ -69,7 +69,9 @@ We welcome contributions from the Pokemon community to enhance and expand the ga
 -   Thanks to GitHub user [@Jersin21](https://github.com/Jersin21) His initial codebase served as the fundamental building block for our project. We leveraged their
   code as a foundation and subsequently molded it into our unique project, adding our distinctive style and features.
 ## Thoughts  
-Collaborating with a team of highly intellectual and driven individuals greatly enriched our project development journey. Our team members' remarkable creativity was commendable, and we consistently generated innovative ideas for project implementation. Our team exhibited efficient communication, swiftly engaged in discussions, and adeptly delegated tasks, ensuring effective collaboration and coordination.
+Enhancing the game's challenge level involved introducing a time limit, a feature where players can view the Pokémon they've caught after each level, and bonus rounds for capturing rare Pokémon. These additions aimed to create a more immersive and realistic Pokémon hunting experience for players.
+
+Working alongside a team of exceptionally talented and motivated individuals profoundly enriched our project development experience. Our team members' outstanding creativity was truly commendable, and we consistently generated innovative ideas for implementing the project. Effective communication, rapid engagement in discussions, and efficient task delegation were all hallmarks of our team's collaboration and coordination.
 ##
 Enjoy playing the Pokemon Memory Cards Game, and may your memory and Pokemon knowledge serve you well on this exciting adventure!
 
