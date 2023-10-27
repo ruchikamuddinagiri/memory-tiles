@@ -128,8 +128,9 @@ function App() {
   return (
     <div className="App">
       <BGMToggle status={gameStatus} />
-      <SettingsPopup onQuit={handleQuit}/>
-
+      { gameStatus === "game" ?
+      <SettingsPopup onQuit={handleQuit}/> : undefined
+    }
       {loading ? (
         <LoadingScreen />
       ) : gameStatus === "start" ? (
