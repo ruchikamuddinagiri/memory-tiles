@@ -62,9 +62,9 @@ const SettingsPopup = ({onQuit}) => {
   };
 
   return (
+    
     <div>
       <button onClick={togglePopup} style={buttonStyles}>
-      {/* <i className="fa fa-cog" style={{fontSize: '50px', color: "white"}}></i> FontAwesome "cog" icon */}
       <img src="/settings.png" width="60" height="60" alt="Settings" />
       </button>
 
