@@ -1,5 +1,6 @@
 # Memory Tiles
--   Live: [Play Our Game Here](https://pokemon-memory-tiles.netlify.app)
+-   Live: [Play Our Game Here](https://pokemon-memory-tiles.netlify.app
+    If that doesn't work for you, you can copy paste the url in your browser: [https://pokemon-memory-tiles.netlify.app](https://pokemon-memory-tiles.netlify.app)
 
 ## Description
 
